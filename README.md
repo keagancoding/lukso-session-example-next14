@@ -6,13 +6,13 @@ This is an example specifically for the Lukso eco system but could easily be twe
 ## Getting started
 Install Deps
 ```bash
-pnpm install
-# or
 npm install
 # or
 yarn install
 # or
-npm install
+pnpm install
+# or
+bun install
 ```
 
 Create .env
