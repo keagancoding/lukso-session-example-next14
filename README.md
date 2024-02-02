@@ -18,10 +18,10 @@ pnpm install
 bun install
 ```
 
-Create .env
+Edit .env
 
-```bash
-cp .env.example .env
+```env
+SESSION_PASS="complex_password_at_least_32_characters_long"
 ```
 
 Start Server
