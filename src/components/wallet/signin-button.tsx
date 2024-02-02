@@ -68,8 +68,8 @@ export default function SignInButton() {
       onClick={handleSignin}
       disabled={isPending}
     >
-      {isPending ? <Loader2 className="animate-spin" /> : ":UP:"}
-      Sign In
+      {isPending ? <Loader2 className="animate-spin" /> : "🆙"}
+      <span>Sign In</span>
     </Button>
   );
 }
